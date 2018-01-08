@@ -31,25 +31,6 @@
 #     plt.show()
 #
 #
-# ############ Method 2 #########
-# import numpy
-# import csv
-# from matplotlib import pyplot as plt
-# x=[]
-# y=[]
-# with open('train.csv') as csvfile:
-#     reader = csv.DictReader(csvfile)
-#     for inputdata in reader:
-#         x.append(inputdata['x'])
-#         y.append(inputdata['y'])
-# x = numpy.asarray(x,dtype=int)
-# y = numpy.asarray(y,dtype=float)
-# X,Y = numpy.polyfit(x,y,1)
-# fit = numpy.poly1d([X,Y])
-# plt.plot(x,fit(x))
-# plt.scatter(x,y)
-# plt.show()
-#
 # ################ Method 3 ###############
 
 import numpy

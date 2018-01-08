@@ -31,7 +31,7 @@
 #     plt.show()
 #
 #
-# ################ Method 3 ###############
+# ################ Method 3 #########
 
 import numpy
 import csv
